@@ -13,7 +13,7 @@ export const initialProfile = {
   phone: "+92 3222765632",
   resumeUrl: "/M_HASSAN_IQBAL_ATS_CV.pdf",
   socialLinks: {
-    github: "https://github.com/hassaniqbalo3",
+    github: "https://github.com/hassaniqbal03",
     linkedin: "https://linkedin.com/in/muhammad-hassan-iqbal",
     email: "mailto:mhassaniqbal18@gmail.com"
   }
@@ -294,8 +294,8 @@ export const initialProjects = [
     "image_url": "/images/cws-headless-cms.jpg",
     "imageUrl": "/images/cws-headless-cms.jpg",
     "image": "/images/cws-headless-cms.jpg",
-    "github_url": "https://github.com/hassaniqbalo3",
-    "githubUrl": "https://github.com/hassaniqbalo3",
+    "github_url": "https://github.com/hassaniqbal03",
+    "githubUrl": "https://github.com/hassaniqbal03",
     "live_url": "https://www.cws.com/de-DE",
     "liveUrl": "https://www.cws.com/de-DE",
     "technologies": [
@@ -323,10 +323,10 @@ export const initialProjects = [
     "image_url": "/images/secure-login-crud.jpg",
     "imageUrl": "/images/secure-login-crud.jpg",
     "image": "/images/secure-login-crud.jpg",
-    "github_url": "https://github.com/hassaniqbalo3",
-    "githubUrl": "https://github.com/hassaniqbalo3",
-    "live_url": "https://github.com/hassaniqbalo3",
-    "liveUrl": "https://github.com/hassaniqbalo3",
+    "github_url": "https://github.com/hassaniqbal03",
+    "githubUrl": "https://github.com/hassaniqbal03",
+    "live_url": "https://github.com/hassaniqbal03",
+    "liveUrl": "https://github.com/hassaniqbal03",
     "technologies": [
       "Node.js",
       "Express.js",

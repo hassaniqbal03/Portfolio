@@ -60,7 +60,7 @@ INSERT INTO `profile` (
   'mhassaniqbal18@gmail.com',
   '+92 3222765632',
   'Lahore, Pakistan',
-  'https://github.com/hassaniqbalo3',
+  'https://github.com/hassaniqbal03',
   'https://linkedin.com/in/muhammad-hassan-iqbal',
   '/M_HASSAN_IQBAL_ATS_CV.pdf'
 )
@@ -226,7 +226,7 @@ INSERT INTO `projects` (
     'Scalable enterprise headless CMS web application built with Next.js, Sitecore, GraphQL, and TypeScript for high-performance content delivery.',
     'Contributed to a scalable, headless CMS-based web application leveraging Next.js and Sitecore. Engineered reusable React.js components adhering to modern frontend development practices and strictly typed with TypeScript. Improved application responsiveness and visual interface aesthetics utilizing Tailwind CSS. Collaborated within a team environment utilizing Git version control and continuous deployment workflows.',
     '/images/cws-headless-cms.jpg',
-    'https://github.com/hassaniqbalo3',
+    'https://github.com/hassaniqbal03',
     'https://www.cws.com/de-DE',
     'frontend',
     TRUE,
@@ -239,8 +239,8 @@ INSERT INTO `projects` (
     'Robust backend application featuring comprehensive CRUD user management, strict Joi input validation, Crypto.js password encryption, and optimized MySQL queries.',
     'Developed a secure backend application featuring comprehensive CRUD functionality for robust user management. Implemented strict input validation methodologies using Joi to ensure data integrity and prevent malformed requests. Encrypted user credentials securely leveraging Crypto.js to enforce high-level authentication standards. Designed and optimized SQL queries to facilitate highly efficient database interactions and data retrieval. Exposed REST APIs to manage authentication protocols and administrative user operations effectively.',
     '/images/secure-login-crud.jpg',
-    'https://github.com/hassaniqbalo3',
-    'https://github.com/hassaniqbalo3',
+    'https://github.com/hassaniqbal03',
+    'https://github.com/hassaniqbal03',
     'backend',
     TRUE,
     2
