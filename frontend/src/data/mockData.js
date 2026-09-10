@@ -346,16 +346,48 @@ export const initialMessages = [];
 
 export const chatbotKnowledge = [
   {
-    keywords: ["skill", "stack", "technology", "technologies", "tech", "react", "next", "node", "database", "mysql"],
+    keywords: ["skill", "stack", "technology", "technologies", "tech", "react", "next", "node", "database", "mysql", "javascript", "typescript"],
     answer: "Muhammad Hassan Iqbal is a Full Stack Developer specializing in React.js, Next.js (App Router), Node.js, Express.js, and MySQL. He excels at building responsive, high-performance web frontends and resilient REST APIs with clean architecture."
   },
   {
-    keywords: ["experience", "career", "background", "company", "work", "history", "years"],
-    answer: "Hassan is currently a FrontEnd Developer at 7KingsCode, building scalable React.js UI systems, and was previously a Backend Development Intern at Icommunix engineering RESTful APIs with Node.js and MySQL."
+    keywords: ["interest", "interests", "hobby", "hobbies", "free time", "passion", "passions", "other info"],
+    answer: "Beyond day-to-day software development, Hassan is passionate about distributed systems, full-stack architectures, API performance tuning, open-source tools, and UI/UX micro-interactions. He constantly explores modern web frameworks and design trends."
   },
   {
-    keywords: ["project", "projects", "work", "portfolio", "built", "showcase", "cms", "crud"],
-    answer: "Hassan has engineered production-grade applications including the CWS Headless CMS Platform (Next.js, TypeScript, GraphQL, Tailwind CSS) and the Secure Login & User CRUD System (Node.js, Express.js, MySQL, Joi, Crypto.js)."
+    keywords: ["philosophy", "principle", "principles", "approach", "mindset", "clean code"],
+    answer: "Hassan believes in writing clean, maintainable, and self-documenting code paired with thoughtful design aesthetics. Every line of code should prioritize speed, accessibility, and robust reliability."
+  },
+  {
+    keywords: ["journey", "story", "started", "background"],
+    answer: "With hands-on experience building scalable applications at 7KingsCode and Icommunix, Hassan has engineered production-grade web solutions focusing on component reusability and secure RESTful APIs."
+  },
+  {
+    keywords: ["location", "city", "country", "remote", "relocate", "lahore", "pakistan"],
+    answer: "Hassan is based in Lahore, Pakistan, and is available for remote roles worldwide, as well as on-site positions or relocation for the right opportunity."
+  },
+  {
+    keywords: ["service", "services", "offer", "build"],
+    answer: "Hassan builds end-to-end digital solutions: fast responsive frontends with Next.js/React, secure REST APIs with Node.js/Express, and optimized relational database schemas with MySQL."
+  },
+  {
+    keywords: ["experience", "career", "background", "company", "work", "history", "years", "7kingscode", "icommunix"],
+    answer: "Hassan is currently a FrontEnd Developer at 7KingsCode building scalable React.js UI systems, and was previously a Backend Development Intern at Icommunix engineering RESTful APIs with Node.js and MySQL."
+  },
+  {
+    keywords: ["cws", "headless", "sitecore"],
+    answer: "CWS Headless CMS Platform is an enterprise-grade headless CMS web application built by Hassan using Next.js, Sitecore, GraphQL, and TypeScript. It features dynamic decoupled architecture, sub-second routing, and modular component reusability."
+  },
+  {
+    keywords: ["crud", "login", "user management", "auth"],
+    answer: "The Secure Login & User CRUD System is a production-ready application built by Hassan using Node.js, Express, and MySQL. It features full CRUD operations, strict Joi schema validation, Crypto.js password encryption, and optimized MySQL queries."
+  },
+  {
+    keywords: ["apex", "commerce", "ecommerce"],
+    answer: "Apex Cloud Commerce is an enterprise e-commerce platform built by Hassan with Next.js and MySQL, featuring real-time inventory synchronization and transactional safety."
+  },
+  {
+    keywords: ["project", "projects", "work", "portfolio", "built", "showcase", "cms", "crud", "commerce", "omniflow"],
+    answer: "Hassan has engineered production-grade applications including the CWS Headless CMS Platform (Next.js, TypeScript, GraphQL), Secure Login & User CRUD System (Node.js, Express, MySQL), and Apex Cloud Commerce."
   },
   {
     keywords: ["education", "degree", "university", "qualification", "study"],
@@ -366,7 +398,7 @@ export const chatbotKnowledge = [
     answer: "Hassan is available for engineering roles and projects! You can reach him directly at mhassaniqbal18@gmail.com, call +92 3222765632, or submit the Contact form on this page."
   },
   {
-    keywords: ["hello", "hi", "hey", "greetings"],
-    answer: "Hello there! I am Hassan's portfolio AI assistant. Feel free to ask me anything about Hassan's skills, full-stack projects, work experience, education, or how to get in touch!"
+    keywords: ["hello", "hi", "hey", "greetings", "salam"],
+    answer: "Hello there! I am Hassan's portfolio AI assistant. Feel free to ask me anything about Hassan's skills, full-stack projects, work experience, hobbies & interests, philosophy, or how to get in touch!"
   }
 ];

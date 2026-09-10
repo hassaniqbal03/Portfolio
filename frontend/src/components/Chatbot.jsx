@@ -6,8 +6,10 @@ import { sendChatMessage } from '../services/chatService';
 
 const SUGGESTED_QUESTIONS = [
   'What are your top skills?',
+  'Tell me about CWS Headless CMS',
+  'What are your hobbies & interests?',
+  'What is your coding philosophy?',
   'Tell me about your experience',
-  'Which full-stack projects did you build?',
   'How can I get in touch?',
 ];
 

@@ -3,7 +3,7 @@ import { chatbotKnowledge } from '../data/mockData';
 
 export const sendChatMessage = async (message) => {
   try {
-    const response = await api.post('/chat', { message });
+    const response = await api.post('/chat', { message }, { timeout: 15000 });
     return response.data;
   } catch (error) {
     console.info('Express backend /api/chat not responding, using local fallback assistant engine');

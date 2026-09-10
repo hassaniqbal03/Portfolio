@@ -22,7 +22,8 @@ const env = {
   COOKIE_EXPIRES_DAYS: Number(process.env.COOKIE_EXPIRES_DAYS) || 1,
 
   // AI Chatbot
-  AI_API_KEY: process.env.AI_API_KEY || '',
+  AI_API_KEY: process.env.AI_API_KEY || process.env.GEMINI_API_KEY || '',
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY || process.env.AI_API_KEY || '',
   AI_PROVIDER: process.env.AI_PROVIDER || 'gemini',
   AI_MODEL: process.env.AI_MODEL || 'gemini-1.5-flash',
 

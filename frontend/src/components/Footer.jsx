@@ -57,34 +57,6 @@ export default function Footer({ profile }) {
             </p>
           </div>
 
-          {/* Quick Nav Links */}
-          <div
-            style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '1.5rem',
-              alignItems: 'center',
-            }}
-          >
-            {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                style={{
-                  fontSize: '0.85rem',
-                  fontWeight: 600,
-                  color: 'var(--text-muted)',
-                  textDecoration: 'none',
-                  transition: 'color 0.2s ease',
-                }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--primary-indigo-light)')}
-                onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-muted)')}
-              >
-                {item}
-              </a>
-            ))}
-          </div>
-
           {/* Socials & Scroll to Top */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <a

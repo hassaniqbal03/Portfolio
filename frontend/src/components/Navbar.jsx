@@ -160,8 +160,8 @@ export default function Navbar() {
           {/* Resume CTA */}
           <Link
             href="/resume"
-            target="_blank"
-            rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="btn-primary desktop-cta"
             style={{
               padding: '0.5rem 1.15rem',
